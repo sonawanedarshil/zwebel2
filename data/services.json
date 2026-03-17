@@ -1,0 +1,216 @@
+{
+  "coreTechnology": {
+    "title": "Core Technology Services",
+    "services": [
+      {
+        "id": "ai",
+        "name": "Artificial Intelligence",
+        "icon": "Brain",
+        "description": "Cutting-edge AI solutions powered by advanced machine learning algorithms",
+        "features": [
+          "Generative AI",
+          "LLM Integration",
+          "Custom AI Model Training",
+          "AI Agents",
+          "RAG Systems",
+          "AI Automation",
+          "AI API Development",
+          "AI Consulting"
+        ]
+      },
+      {
+        "id": "ml",
+        "name": "Machine Learning",
+        "icon": "Cpu",
+        "description": "Build intelligent systems that learn and adapt from data",
+        "features": [
+          "Predictive Modeling",
+          "Deep Learning",
+          "Computer Vision",
+          "NLP",
+          "Recommendation Engines",
+          "Fraud Detection Systems"
+        ]
+      },
+      {
+        "id": "blockchain",
+        "name": "Blockchain Development",
+        "icon": "Link",
+        "description": "Decentralized solutions for the future of digital transactions",
+        "features": [
+          "Smart Contracts",
+          "Web3 Applications",
+          "NFT Platforms",
+          "DeFi Solutions"
+        ]
+      },
+      {
+        "id": "arvr",
+        "name": "AR/VR Development",
+        "icon": "Glasses",
+        "description": "Immersive experiences that blur the line between digital and physical",
+        "features": [
+          "Immersive Applications",
+          "Metaverse Solutions",
+          "3D Product Visualization"
+        ]
+      }
+    ]
+  },
+  "development": {
+    "title": "Development Services",
+    "services": [
+      {
+        "id": "web",
+        "name": "Web Development",
+        "icon": "Globe",
+        "description": "Scalable, high-performance web applications",
+        "features": [
+          "Corporate Websites",
+          "SaaS Platforms",
+          "Admin Panels",
+          "CRM Systems",
+          "ERP Systems",
+          "Marketplace Platforms",
+          "Custom Web Applications"
+        ]
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile Development",
+        "icon": "Smartphone",
+        "description": "Native and cross-platform mobile solutions",
+        "features": [
+          "Android Apps",
+          "iOS Apps",
+          "Cross-platform (Flutter / React Native)",
+          "Enterprise Mobility Solutions"
+        ]
+      },
+      {
+        "id": "desktop",
+        "name": "Desktop Applications",
+        "icon": "Monitor",
+        "description": "Powerful desktop software for enterprise needs",
+        "features": [
+          "Windows Applications",
+          "Mac Applications",
+          "Enterprise Software Tools"
+        ]
+      }
+    ]
+  },
+  "cloud": {
+    "title": "Cloud & Infrastructure",
+    "services": [
+      {
+        "id": "cloud",
+        "name": "Cloud Solutions",
+        "icon": "Cloud",
+        "description": "Scalable cloud infrastructure and services",
+        "features": [
+          "AWS Solutions",
+          "Azure Solutions",
+          "Google Cloud",
+          "Serverless Architecture",
+          "Kubernetes",
+          "DevOps Automation",
+          "CI/CD Pipelines",
+          "Infrastructure as Code",
+          "Cloud Cost Optimization"
+        ]
+      }
+    ]
+  },
+  "data": {
+    "title": "Data & Analytics",
+    "services": [
+      {
+        "id": "data",
+        "name": "Data Engineering",
+        "icon": "Database",
+        "description": "Transform data into actionable insights",
+        "features": [
+          "Big Data Systems",
+          "BI Dashboards",
+          "Data Lakes",
+          "ETL Pipelines",
+          "Real-time Analytics"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "title": "Security & Compliance",
+    "services": [
+      {
+        "id": "security",
+        "name": "Cybersecurity",
+        "icon": "Shield",
+        "description": "Protect your digital assets with enterprise-grade security",
+        "features": [
+          "Cybersecurity Consulting",
+          "Cloud Security",
+          "Application Security",
+          "Penetration Testing",
+          "GDPR Compliance",
+          "Data Privacy Consulting"
+        ]
+      }
+    ]
+  },
+  "design": {
+    "title": "Design & Product",
+    "services": [
+      {
+        "id": "design",
+        "name": "UI/UX Design",
+        "icon": "Palette",
+        "description": "Beautiful, intuitive user experiences",
+        "features": [
+          "Branding",
+          "Product Strategy",
+          "Wireframing",
+          "MVP Development",
+          "Prototyping"
+        ]
+      }
+    ]
+  },
+  "digital": {
+    "title": "Digital & Growth Services",
+    "services": [
+      {
+        "id": "digital",
+        "name": "Digital Marketing",
+        "icon": "TrendingUp",
+        "description": "Grow your business with data-driven marketing",
+        "features": [
+          "SEO",
+          "Performance Optimization",
+          "Conversion Rate Optimization",
+          "Digital Marketing",
+          "AI Marketing Automation"
+        ]
+      }
+    ]
+  },
+  "support": {
+    "title": "Support & Maintenance",
+    "services": [
+      {
+        "id": "support",
+        "name": "24/7 Support",
+        "icon": "Headphones",
+        "description": "Round-the-clock support for your business",
+        "features": [
+          "24/7 Monitoring",
+          "Application Maintenance",
+          "Cloud Support",
+          "Security Updates",
+          "Performance Optimization"
+        ]
+      }
+    ]
+  }
+}

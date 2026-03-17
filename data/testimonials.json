@@ -1,0 +1,58 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "CEO, MedTech Solutions",
+      "company": "MedTech Solutions",
+      "content": "Zwiebel AI transformed our healthcare platform with their AI solutions. The results exceeded our expectations.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200"
+    },
+    {
+      "id": 2,
+      "name": "Maria Garcia",
+      "role": "CTO, Digital Bank Inc",
+      "company": "Digital Bank Inc",
+      "content": "Outstanding work on our mobile banking app. The team's expertise in security and AI is unmatched.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200"
+    },
+    {
+      "id": 3,
+      "name": "Robert Johnson",
+      "role": "Founder, EduLearn Global",
+      "company": "EduLearn Global",
+      "content": "The AI tutoring platform they built has revolutionized online learning. Highly recommended!",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200"
+    },
+    {
+      "id": 4,
+      "name": "Jennifer Lee",
+      "role": "VP Engineering, Enterprise Solutions",
+      "company": "Enterprise Solutions Ltd",
+      "content": "Professional, reliable, and innovative. Zwiebel AI delivered a world-class SaaS platform.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200"
+    },
+    {
+      "id": 5,
+      "name": "Ahmed Hassan",
+      "role": "Director, LogiTech Corp",
+      "company": "LogiTech Corp",
+      "content": "Their supply chain optimization system reduced our costs significantly. Excellent partnership!",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200"
+    },
+    {
+      "id": 6,
+      "name": "Sophie Martin",
+      "role": "Head of Innovation, Retail Innovations",
+      "company": "Retail Innovations",
+      "content": "The AR visualization platform increased our conversions dramatically. Amazing technology!",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "industries": [
+    {
+      "id": "edtech",
+      "name": "EdTech",
+      "icon": "GraduationCap",
+      "description": "Transform education with AI-powered learning platforms",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
+    },
+    {
+      "id": "fintech",
+      "name": "FinTech",
+      "icon": "CreditCard",
+      "description": "Secure, scalable financial technology solutions",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-Commerce",
+      "icon": "ShoppingCart",
+      "description": "Next-generation online shopping experiences",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800"
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "icon": "Heart",
+      "description": "AI-driven healthcare solutions for better patient outcomes",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800"
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics",
+      "icon": "Truck",
+      "description": "Optimize supply chains with intelligent logistics",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800"
+    },
+    {
+      "id": "realestate",
+      "name": "Real Estate",
+      "icon": "Home",
+      "description": "Innovative property management and visualization",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800"
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing",
+      "icon": "Factory",
+      "description": "Smart manufacturing with IoT and AI",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
+    },
+    {
+      "id": "government",
+      "name": "Government",
+      "icon": "Building2",
+      "description": "Secure government technology solutions",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
+    },
+    {
+      "id": "startups",
+      "name": "Startups",
+      "icon": "Rocket",
+      "description": "Accelerate your startup with cutting-edge technology",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800"
+    },
+    {
+      "id": "enterprises",
+      "name": "Enterprises",
+      "icon": "Briefcase",
+      "description": "Enterprise-grade solutions for large organizations",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800"
+    },
+    {
+      "id": "ngo",
+      "name": "NGOs",
+      "icon": "HeartHandshake",
+      "description": "Technology solutions for social impact",
+      "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800"
+    },
+    {
+      "id": "media",
+      "name": "Media & Entertainment",
+      "icon": "Video",
+      "description": "Next-gen media platforms and content delivery",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800"
+    }
+  ]
+}

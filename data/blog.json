@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Future of Generative AI in Enterprise Applications",
+      "excerpt": "Exploring how generative AI is transforming enterprise workflows and business processes.",
+      "content": "Generative AI has emerged as a transformative technology for enterprises...",
+      "author": "Dr. Rajendra Patil",
+      "date": "2024-01-15",
+      "category": "AI",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+      "tags": ["AI", "Enterprise", "Technology"]
+    },
+    {
+      "id": 2,
+      "title": "Building Scalable Cloud Infrastructure: Best Practices",
+      "excerpt": "Learn how to design and implement cloud infrastructure that scales with your business.",
+      "content": "Cloud infrastructure is the backbone of modern applications...",
+      "author": "Michael Rodriguez",
+      "date": "2024-01-10",
+      "category": "Cloud",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200",
+      "tags": ["Cloud", "Infrastructure", "DevOps"]
+    },
+    {
+      "id": 3,
+      "title": "The Rise of AI Agents: Automating Business Processes",
+      "excerpt": "How AI agents are revolutionizing automation and reducing manual work.",
+      "content": "AI agents represent the next evolution in business automation...",
+      "author": "Sarah Chen",
+      "date": "2024-01-05",
+      "category": "AI",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200",
+      "tags": ["AI", "Automation", "Business"]
+    },
+    {
+      "id": 4,
+      "title": "Blockchain in FinTech: Security and Transparency",
+      "excerpt": "Understanding how blockchain technology is reshaping financial services.",
+      "content": "Blockchain technology offers unprecedented security and transparency...",
+      "author": "James Kumar",
+      "date": "2023-12-28",
+      "category": "Blockchain",
+      "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200",
+      "tags": ["Blockchain", "FinTech", "Security"]
+    },
+    {
+      "id": 5,
+      "title": "AR/VR: The Next Frontier in Customer Experience",
+      "excerpt": "Exploring immersive technologies and their impact on customer engagement.",
+      "content": "Augmented and virtual reality are transforming how customers interact...",
+      "author": "Emily Watson",
+      "date": "2023-12-20",
+      "category": "AR/VR",
+      "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1200",
+      "tags": ["AR/VR", "Customer Experience", "Innovation"]
+    },
+    {
+      "id": 6,
+      "title": "Data Engineering: Building Modern Data Pipelines",
+      "excerpt": "A comprehensive guide to building scalable data pipelines for analytics.",
+      "content": "Modern businesses rely on data-driven insights to make decisions...",
+      "author": "Priya Sharma",
+      "date": "2023-12-15",
+      "category": "Data",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      "tags": ["Data", "Analytics", "Engineering"]
+    }
+  ]
+}

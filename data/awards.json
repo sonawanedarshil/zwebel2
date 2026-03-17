@@ -1,0 +1,58 @@
+{
+  "awards": [
+    {
+      "id": 1,
+      "title": "Best AI Innovation",
+      "organization": "Tech Awards 2024",
+      "year": "2024",
+      "icon": "Award"
+    },
+    {
+      "id": 2,
+      "title": "Excellence in Cloud Solutions",
+      "organization": "Cloud Computing Awards",
+      "year": "2024",
+      "icon": "Trophy"
+    },
+    {
+      "id": 3,
+      "title": "Top AI Company",
+      "organization": "AI Business Review",
+      "year": "2023",
+      "icon": "Star"
+    },
+    {
+      "id": 4,
+      "title": "Best Enterprise Solution",
+      "organization": "Enterprise Tech Awards",
+      "year": "2023",
+      "icon": "Medal"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "ISO 27001",
+      "description": "Information Security Management",
+      "icon": "Shield"
+    },
+    {
+      "id": 2,
+      "name": "SOC 2 Type II",
+      "description": "Security, Availability & Confidentiality",
+      "icon": "CheckCircle"
+    },
+    {
+      "id": 3,
+      "name": "GDPR Compliant",
+      "description": "Data Protection & Privacy",
+      "icon": "Lock"
+    },
+    {
+      "id": 4,
+      "name": "AWS Partner",
+      "description": "Advanced Technology Partner",
+      "icon": "Cloud"
+    }
+  ]
+}

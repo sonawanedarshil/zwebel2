@@ -1,0 +1,100 @@
+{
+  "caseStudies": [
+    {
+      "id": 1,
+      "title": "AI-Powered Healthcare Platform",
+      "client": "MedTech Solutions",
+      "industry": "Healthcare",
+      "description": "Developed an AI-driven diagnostic platform that reduced diagnosis time by 70%",
+      "challenges": ["Real-time processing", "HIPAA compliance", "Scalability"],
+      "solutions": ["Custom ML models", "Cloud infrastructure", "Security-first architecture"],
+      "results": {
+        "metric1": "70% faster diagnosis",
+        "metric2": "95% accuracy rate",
+        "metric3": "50K+ patients served"
+      },
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1200",
+      "technologies": ["AI/ML", "Cloud", "Security"]
+    },
+    {
+      "id": 2,
+      "title": "FinTech Mobile Banking App",
+      "client": "Digital Bank Inc",
+      "industry": "FinTech",
+      "description": "Built a secure mobile banking platform with AI fraud detection",
+      "challenges": ["Security", "Real-time transactions", "User experience"],
+      "solutions": ["Blockchain integration", "AI fraud detection", "Modern UI/UX"],
+      "results": {
+        "metric1": "2M+ users",
+        "metric2": "99.9% uptime",
+        "metric3": "60% fraud reduction"
+      },
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      "technologies": ["Mobile", "Blockchain", "AI"]
+    },
+    {
+      "id": 3,
+      "title": "E-Learning Platform with AI Tutoring",
+      "client": "EduLearn Global",
+      "industry": "EdTech",
+      "description": "Created an AI-powered learning platform with personalized tutoring",
+      "challenges": ["Personalization", "Scalability", "Content delivery"],
+      "solutions": ["AI tutoring agents", "Cloud infrastructure", "Adaptive learning"],
+      "results": {
+        "metric1": "500K+ students",
+        "metric2": "40% improvement in scores",
+        "metric3": "24/7 AI support"
+      },
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200",
+      "technologies": ["AI/ML", "Web", "Cloud"]
+    },
+    {
+      "id": 4,
+      "title": "Supply Chain Optimization System",
+      "client": "LogiTech Corp",
+      "industry": "Logistics",
+      "description": "AI-driven supply chain management reducing costs by 35%",
+      "challenges": ["Real-time tracking", "Route optimization", "Inventory management"],
+      "solutions": ["ML algorithms", "IoT integration", "Real-time analytics"],
+      "results": {
+        "metric1": "35% cost reduction",
+        "metric2": "50% faster delivery",
+        "metric3": "99% accuracy"
+      },
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200",
+      "technologies": ["AI/ML", "IoT", "Analytics"]
+    },
+    {
+      "id": 5,
+      "title": "Enterprise SaaS Platform",
+      "client": "Enterprise Solutions Ltd",
+      "industry": "Enterprise",
+      "description": "Scalable SaaS platform serving 10,000+ businesses",
+      "challenges": ["Multi-tenancy", "Performance", "Security"],
+      "solutions": ["Microservices", "Cloud-native", "Enterprise security"],
+      "results": {
+        "metric1": "10K+ businesses",
+        "metric2": "99.99% uptime",
+        "metric3": "5x growth"
+      },
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200",
+      "technologies": ["Cloud", "Microservices", "Security"]
+    },
+    {
+      "id": 6,
+      "title": "AR Product Visualization Platform",
+      "client": "Retail Innovations",
+      "industry": "E-Commerce",
+      "description": "AR-powered product visualization increasing conversions by 45%",
+      "challenges": ["3D rendering", "Mobile performance", "User experience"],
+      "solutions": ["AR/VR technology", "Optimized rendering", "Intuitive UI"],
+      "results": {
+        "metric1": "45% conversion increase",
+        "metric2": "2M+ visualizations",
+        "metric3": "4.8/5 user rating"
+      },
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200",
+      "technologies": ["AR/VR", "Mobile", "3D"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "name": "Microsoft",
+      "logo": "/assest/microsoft.png"
+    },
+    {
+      "name": "Google",
+      "logo": "/assest/google.png"
+    },
+    {
+      "name": "Amazon",
+      "logo": "/assest/amazon.png"
+    },
+    {
+      "name": "IBM",
+      "logo": "/assest/ibm.png"
+    },
+    {
+      "name": "Oracle",
+      "logo": "/assest/oracle.png"
+    },
+    {
+      "name": "Salesforce",
+      "logo": "/assest/salesforce.png"
+    }
+  ]
+}
