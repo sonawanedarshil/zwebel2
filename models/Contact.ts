@@ -6,7 +6,22 @@ const ContactSchema = new mongoose.Schema({
   phone: String,
   company: String,
   subject: String,
-  message: String
+  message: String,
+
+  // ✅ CRM fields
+  status: {
+    type: String,
+    enum: ["new", "contacted", "closed"],
+    default: "new",
+  },
+
+  notes: [
+    {
+      text: String,
+      createdAt: { type: Date, default: Date.now },
+    },
+  ],
+
 }, { timestamps: true });
 
 export default mongoose.models.Contact ||

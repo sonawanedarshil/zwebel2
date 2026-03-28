@@ -3,6 +3,7 @@ import { connectDB } from "@/lib/db";
 import Contact from "@/models/Contact";
 import nodemailer from "nodemailer";
 
+// ✅ EMAIL SETUP
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
@@ -11,12 +12,26 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+// ✅ GET (to avoid 405)
+export async function GET() {
+  await connectDB();
+
+  const leads = await Contact.find().sort({ createdAt: -1 });
+
+  return NextResponse.json({
+    success: true,
+    data: leads,
+  });
+}
+
+// ✅ POST
 export async function POST(req: Request) {
   try {
     await connectDB();
 
     const body = await req.json();
 
+    // 🔥 Generate tracking ID
     const trackingId = Math.random().toString(36).substring(2, 10);
 
     const contact = await Contact.create({
@@ -29,18 +44,19 @@ export async function POST(req: Request) {
       trackingId,
     });
 
+    // ✉️ SEND EMAIL
     if (body.email) {
       await transporter.sendMail({
         to: body.email,
-        subject: "Application Submitted",
+        subject: "Application Submitted Successfully",
         text: `
 Hi ${body.name},
 
+Your application has been submitted.
+
 Tracking ID: ${trackingId}
 
-Your application is received.
-
-- Zwiebel AI
+- Zwiebel AI Team
         `,
       });
     }
@@ -48,6 +64,7 @@ Your application is received.
     return NextResponse.json({
       success: true,
       trackingId,
+      data: contact,
     });
 
   } catch (error) {
