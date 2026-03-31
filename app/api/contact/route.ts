@@ -17,7 +17,9 @@ export async function POST(req: Request) {
 
     const body = await req.json();
 
+    // 🔥 NEW (STEP 2)
     const trackingId = Math.random().toString(36).substring(2, 10);
+    const clientId = "C-" + Math.floor(1000 + Math.random() * 9000);
 
     const contact = await Contact.create({
       name: body.name,
@@ -27,6 +29,8 @@ export async function POST(req: Request) {
       subject: body.subject,
       message: body.message,
       trackingId,
+
+      clientId, // 🔥 NEW FIELD ADDED
     });
 
     if (body.email) {
@@ -37,6 +41,7 @@ export async function POST(req: Request) {
 Hi ${body.name},
 
 Tracking ID: ${trackingId}
+Client ID: ${clientId}
 
 Your application is received.
 
@@ -48,6 +53,7 @@ Your application is received.
     return NextResponse.json({
       success: true,
       trackingId,
+      clientId, // 🔥 OPTIONAL RETURN
     });
 
   } catch (error) {

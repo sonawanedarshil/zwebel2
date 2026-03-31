@@ -22,6 +22,21 @@ const ContactSchema = new mongoose.Schema({
     },
   ],
 
+  // 🔥 NEW CLIENT FIELDS
+  clientId: {
+    type: String,
+  },
+
+  industry: {
+    type: String,
+  },
+
+  priority: {
+    type: String,
+    enum: ["low", "medium", "high"],
+    default: "medium",
+  },
+
 }, { timestamps: true });
 
 export default mongoose.models.Contact ||

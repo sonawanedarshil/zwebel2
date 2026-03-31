@@ -49,7 +49,7 @@ export async function GET(req: Request, { params }: any) {
   }
 }
 
-// ✅ UPDATE LEAD + SEND EMAIL
+// ✅ UPDATE LEAD + EMAIL
 export async function PATCH(req: Request, { params }: any) {
   try {
     await connectDB();
@@ -76,27 +76,48 @@ export async function PATCH(req: Request, { params }: any) {
       );
     }
 
-    // 🔥 SEND EMAIL TO CLIENT ON UPDATE
-    if (updated.email) {
-      await transporter.sendMail({
-        to: updated.email,
-        subject: "Application Status Updated",
-        text: `
+    // 🔥 PAYMENT CALCULATIONS
+    const total = updated.totalAmount || 0;
+    const paid = updated.paidAmount || 0;
+    const pending = total - paid;
+
+    let paymentStatus = "pending";
+    if (paid > 0 && paid < total) paymentStatus = "partial";
+    if (paid >= total && total > 0) paymentStatus = "completed";
+
+    // 🔥 SEND EMAIL
+    try {
+      if (updated.email) {
+        await transporter.sendMail({
+          to: updated.email,
+          subject: "Application Status Updated",
+          text: `
 Hi ${updated.name},
 
 Your application has been updated.
 
 📌 Status: ${updated.status}
-💻 Development: ${updated.developmentStatus || "Not started"}
-💰 Payment: ${updated.paymentStatus || "Pending"}
+⚡ Priority: ${updated.priority}
+
+💻 Development: ${
+            updated.developmentStarted ? "Started" : "Not Started"
+          }
+
+💰 Total: ₹${total}
+✅ Paid: ₹${paid}
+⏳ Pending: ₹${pending}
+📊 Payment Status: ${paymentStatus}
 
 🆔 Tracking ID: ${updated.trackingId || "N/A"}
 
 You can track your application anytime.
 
 - Zwiebel AI Team
-        `,
-      });
+          `,
+        });
+      }
+    } catch (mailError) {
+      console.error("EMAIL ERROR:", mailError);
     }
 
     return NextResponse.json({
